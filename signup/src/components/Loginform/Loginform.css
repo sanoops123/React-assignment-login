@@ -1,0 +1,44 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    background: seagreen;
+    
+}
+.style{
+    width: 420px;
+    height: 340px;
+    background: slateblue;
+    border: 1px solid black;
+    color: #fff;
+}
+.style h1{
+    font-size: 40px;
+}
+.style .input-box{
+    margin: 10px 0;
+    border-radius: 100px;
+}
+.style.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+}
+.mail{
+    padding-right: 120px;
+    padding-top: 10px;
+}
+.psw{
+    padding-right: 100px;
+    padding-top: 10px;
+}
+.remember-forgot{
+    padding-left: 70px;
+    padding-top: 10px;
+}
+.btn:hover{
+    background-color: green;
+    color: white;
+   border: 1px solid black;
+   
+}
